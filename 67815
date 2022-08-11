@@ -1,0 +1,105 @@
+* {
+    color: white;
+}
+body {
+ background: url("../images/wp1877576-shopping-wallpapers.jpg") center/cover no-repeat fixed ;
+
+ color: white;
+}
+
+header {
+    margin-top: 5px;
+    position: fixed;
+    width: 95%;
+    margin-left: 22px;
+  
+    z-index: 5;
+    box-shadow: 0px 0px 200px rgb(255, 255, 255);
+    border-radius: 5%;
+
+
+}
+header nav {
+    border-radius: 5%;
+}
+.div1 .card{
+    box-shadow: black 0px 0px 10px ;
+    position: fixed;
+    width: 300px;
+    top: 15%;
+    left: 20px;
+    height: 80vh;
+}
+.col-lg-9 {
+    margin-top: 10%;
+}
+.number {
+    border-top: 2px solid orange;
+    margin-top: 10%;
+    padding-top: 10%;
+    
+}
+.div1 h3 {
+    opacity: 0.6;
+    color: rgb(105, 114, 53);
+    font-weight: bold;
+    border-bottom: rgb(149, 142, 129) 2px solid;
+}
+.div1 p {
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+.number h3 {
+    font-size: 1.2rem;
+    opacity: 0.6;
+    color: green;
+    font-weight: bold;
+}
+.number p {
+    font-size: 1.2rem;
+    opacity: 0.6;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 10%;
+    background: url("../images/22.jpg") center/cover no-repeat fixed;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    z-index: 9;
+    color: white;
+    padding: 20px;
+
+}
+footer ul li {
+    list-style: none;
+    font-weight: bold;
+     opacity: 0.8;
+}
+@media screen and (max-width: 650px){
+    .div1 .card{
+        position: relative;
+        
+        width: 100%;
+        height: auto;
+        display: block;
+        text-align: center;
+        left: 0px;
+        
+
+
+    }
+
+.div1 {
+    margin-bottom: 10%;
+}
+.ito {
+    margin-top: 10%;
+}
+}
+
+p {
+    font-weight: bold;
+    opacity: .7;
+}
